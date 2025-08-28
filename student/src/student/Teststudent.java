@@ -26,6 +26,12 @@ public class Teststudent {
 	        
 	        Hostelstu hs=new Hostelstu(49,"Rashi","CSEAI",'C',95,"H506","gargi");
 	        hs.displayInfo();
+	        Student str=new Student(6,"Ashi","CSEAI",'D');
+	        str.search(1);
+	        str.search(1,"Ashi");
+	        str.search("Ashi","CSEAI");
+	        str.search("CSEAI",'D');
+	        student1.search("CSEAI",'C');
 	        
 	    }
 }

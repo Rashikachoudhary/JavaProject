@@ -61,6 +61,20 @@ public class Student {
 	        student2.studying(9);
 	        student3.displayInfo();
 	    }
+	    public void search(int RollNo) {
+	    	System.out.println("Searching by rollno : "+RollNo);
+	    }
+	    public void search(int RollNo,String Name) {
+	    	System.out.println("Searching by rollno : "+RollNo+ " and name : "+Name);
+	    }
+	    
+	    public void search(String Name,String Department) {
+	    	System.out.println("Searching by name : "+Name+" and department : "+ Department);
+	    }
+	    public void search(String Department,char Section) {
+	    	System.out.println("Searching by department : "+ Department+ " and section : "+Section);
+	    }
+	    
 	}
 
 
