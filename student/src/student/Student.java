@@ -2,9 +2,9 @@ package student;
 
 public class Student {
 	
-	    int RollNo;
+	    private int RollNo;
 	    private String Name;
-	    protected String Department;
+	    private String Department;
 	    char Section;
 	    static String collegeName="KIET"; //class variable
 
